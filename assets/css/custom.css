@@ -1,0 +1,64 @@
+/* Color Palette, from Coolors.co (Palette #2: https://coolors.co/493843-61988e-a0b2a6-cbbfbb-eabda8)
+
+Dark Puce (brownish dark gray): #493843
+Desaturated Cyan (bluish pastel green): #61988E
+Quick Silver (greenish pastel silver): #A0B2A6
+Pale Silver (tannish pastel silver): #CBBFBB
+Desert Sand (pinkish tan): #EABDA8
+
+ */
+
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+  background: #EABDA8;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+  padding-top: 50px;
+}
+
+h2 {
+  font-size: 30px;
+  border-bottom: 2px solid #CBBFBB;
+  padding-bottom: 5px;
+}
+
+#content {
+    margin-top: 40px;
+    background: #493843;
+    color: #CBBFBB;
+}
+.remove-tweet,
+.remove-tweet:hover {
+    float: right;
+    cursor: pointer;
+    color: red;
+    font-weight: bold;
+}
+
+#button {
+  font-size: 20px;
+  color: #CBBFBB;
+  border: 2px solid #A0B2A6;
+  background: transparent;
+  transition: all 1s ease-in-out;
+}
+
+#button:hover {
+  background: #A0B2A6;
+  color: #493843;
+}
+
+#tweet {
+  color: #000000;
+}
+
+#tweet-list li {
+  list-style-type: none;
+  border: 1px solid #EABDA8;
+  padding: 0 10px;
+}
